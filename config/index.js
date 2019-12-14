@@ -57,6 +57,7 @@ const config = {
       }
     }
   },
+
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
@@ -78,7 +79,8 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
-    }
+    },
+    esnextModules: ['taro-ui']
   }
 }
 
